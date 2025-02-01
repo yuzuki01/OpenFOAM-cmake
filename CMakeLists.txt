@@ -3,7 +3,7 @@ project(icoFoam)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(DEFINITIONS_COMPILE
-        "-std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast \
+        "-std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra \
         -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository \
         -ftemplate-depth-100  -fPIC -Wno-unused-variable -Wno-old-style-cast $ENV{PFLAGS} $ENV{PINC}"
 )
